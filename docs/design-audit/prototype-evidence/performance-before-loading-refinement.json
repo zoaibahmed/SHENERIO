@@ -1,0 +1,108 @@
+{
+  "testedAt": "2026-11-08T20:30:23.664Z",
+  "conditions": "Local production server; fresh browser context; 390×844 @2x; simulated 4x CPU slowdown; 1.6 Mbps down / 0.75 Mbps up / 150ms latency. Server image cache may be warm. Single lab sample.",
+  "browser": "156.0.8078.80",
+  "initial": {
+    "lcp": 4060,
+    "cls": 0.0034070064314218754,
+    "resources": [
+      {
+        "name": "/_next/static/chunks/10sudtor3cz0u.css",
+        "type": "link",
+        "transferBytes": 5070,
+        "duration": 226
+      },
+      {
+        "name": "/_next/static/chunks/0kqziy-7_gy73.js",
+        "type": "link",
+        "transferBytes": 7732,
+        "duration": 312
+      },
+      {
+        "name": "/_next/static/chunks/395glp5--7qza.js",
+        "type": "script",
+        "transferBytes": 48777,
+        "duration": 1124
+      },
+      {
+        "name": "/_next/static/chunks/3jn_x8ihwq16e.js",
+        "type": "script",
+        "transferBytes": 71981,
+        "duration": 1353
+      },
+      {
+        "name": "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "type": "script",
+        "transferBytes": 4205,
+        "duration": 292
+      },
+      {
+        "name": "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "type": "script",
+        "transferBytes": 3815,
+        "duration": 453
+      },
+      {
+        "name": "/_next/static/chunks/04vw_ig739wg_.js",
+        "type": "script",
+        "transferBytes": 9016,
+        "duration": 605
+      },
+      {
+        "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=1920&q=75",
+        "type": "img",
+        "transferBytes": 32571,
+        "duration": 1292
+      },
+      {
+        "name": "/_next/static/media/manrope-latin-400-normal.2xa18tgv2np2i.woff2",
+        "type": "css",
+        "transferBytes": 14408,
+        "duration": 568
+      },
+      {
+        "name": "/_next/static/media/bodoni-moda-latin-400-normal.0dl1cyw19nni1.woff2",
+        "type": "css",
+        "transferBytes": 14828,
+        "duration": 585
+      },
+      {
+        "name": "/_next/static/media/manrope-latin-500-normal.23dhs730snm70.woff2",
+        "type": "css",
+        "transferBytes": 14344,
+        "duration": 739
+      },
+      {
+        "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=828&q=75",
+        "type": "img",
+        "transferBytes": 17628,
+        "duration": 580
+      },
+      {
+        "name": "/favicon.ico",
+        "type": "other",
+        "transferBytes": 309,
+        "duration": 180
+      },
+      {
+        "name": "/_next/static/chunks/2a3iml0rheide.js",
+        "type": "script",
+        "transferBytes": 27759,
+        "duration": 409
+      },
+      {
+        "name": "/_next/static/chunks/04s0sdy-i_vwo.js",
+        "type": "script",
+        "transferBytes": 17810,
+        "duration": 340
+      }
+    ]
+  },
+  "scrollFrameSample": {
+    "count": 126,
+    "medianMs": 16.69999999999891,
+    "p95Ms": 33.399999999999636,
+    "over50Ms": 0
+  },
+  "limitations": "Not physical mobile hardware, real network, INP field measurement, Safari testing or proof of performance superiority over reference recordings."
+}

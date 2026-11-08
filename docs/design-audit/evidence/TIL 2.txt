@@ -1,0 +1,309 @@
+--- PAGE 1 ---
+Introduction
+Recommended Launch Articles
+1. The Science of Niacinamide: Understanding Vitamin B3 in Skincare.
+2. Hydration Explained: The Role of Glycerin and Hyaluronic Acid.
+3. The Art of Moisturising: Understanding Moisturising Ingredients.
+4. Inside Korean Skincare: Formulation and Innovation in South Korea.
+5. Understanding Squalane: A Closer Look at This Emollient Ingredient.
+6. The Role of Panthenol in Modern Skincare.
+7. The Modern Skincare Ritual: Building a Consistent Skincare Routine.
+8. The Importance of Sunscreen: Daily Protection and Skin Health.
+9. Serum vs Moisturiser: Understanding Their Different Roles.
+10. Understanding the Role of Shea Butter in Skincare.
+Featured Article – The Science of Niacinamide
+ THE JOURNAL – EDITORIAL PAGE
+Page Heading:
+THE SHENERIO JOURNAL.
+Main Headline:
+A CONSIDERED PERSPECTIVE ON SKINCARE.
+The SHENERIO Journal is a destination for skincare knowledge, ingredient education 
+and contemporary perspectives on beauty.
+Explore the ingredients behind modern skincare, discover the importance of daily skin 
+care and learn more about the world of Korean formulation innovation.
+Headline:
+NIACINAMIDE: AN ESSENTIAL INGREDIENT IN MODERN SKINCARE.
+Niacinamide, also known as vitamin B3, is one of the most widely recognised ingredients 
+in contemporary skincare.
+Its versatility makes it a popular inclusion in formulations designed to improve the 
+appearance of uneven skin tone and support the skin's moisture barrier.
+At SHENERIO, niacinamide features in both LUMICLEAR formulations, making it an 
+important part of the collection's ingredient story.
+
+--- PAGE 2 ---
+ FREQUENTLY ASKED QUESTIONS
+What is SHENERIO?
+Where is SHENERIO based?
+Where are SHENERIO products formulated and manufactured?
+What products are currently available?
+What is the LUMICLEAR collection?
+Are SHENERIO products suitable for all skin types?
+Are SHENERIO products suitable for women and men?
+Can I wear SHENERIO products under makeup?
+Can I use the serum and cream together?
+Discover how thoughtful ingredient selection contributes to the modern skincare 
+experience.
+Button: EXPLORE THE LUMICLEAR COLLECTION
+SHENERIO is a London-founded luxury skincare brand inspired by contemporary beauty 
+and South Korean skincare formulation innovation.
+Our brand is founded in London, United Kingdom.
+Our products are formulated and manufactured in South Korea.
+The inaugural SHENERIO collection features two products: LUMICLEAR TARGET 
+SERUM and LUMICLEAR RADIANCE CREAM.
+LUMICLEAR is our first skincare collection, bringing together two complementary 
+formulations featuring carefully selected cosmetic ingredients.
+The LUMICLEAR collection is developed with all skin types in mind. However, individual 
+skin responses may vary. We recommend reviewing the full ingredient list and 
+performing a patch test before first use.
+Yes. SHENERIO is a skincare brand for women and men. Our products are designed to 
+complement everyday skincare routines regardless of gender.
+Yes. Both LUMICLEAR TARGET SERUM and LUMICLEAR RADIANCE CREAM are 
+designed to complement your makeup routine.
+Apply the serum first, follow with the moisturiser and allow your skincare to settle before 
+applying makeup.
+
+--- PAGE 3 ---
+How often should I use the products?
+Can I use the products on sensitive skin?
+What is the price of LUMICLEAR TARGET SERUM?
+What is the price of LUMICLEAR RADIANCE CREAM?
+Are SHENERIO products vegan?
+Are SHENERIO products cruelty-free?
+How do I place an order?
+How can I contact SHENERIO?
+ CONTACT PAGE
+Introduction
+Yes. They are designed to complement one another as part of a skincare routine. Apply 
+LUMICLEAR TARGET SERUM first, followed by LUMICLEAR RADIANCE CREAM.
+Follow the directions on the product packaging. The intended routine is morning and 
+evening, where suitable.
+Individual skin responses vary. Review the full ingredient list and perform a patch test 
+before first use. If you have a known skin sensitivity, seek appropriate professional 
+advice.
+LUMICLEAR TARGET SERUM is priced at £26.00 GBP.
+LUMICLEAR RADIANCE CREAM is priced at £36.00 GBP.
+Please contact our team for verified product-specific information.
+Please contact our team for our confirmed animal-testing policy.
+Select your preferred product, add it to your shopping bag and follow the secure 
+checkout process.
+Visit our Contact page to submit an enquiry to our customer service team.
+Page Heading:
+CONTACT SHENERIO.
+Main Headline:
+WE ARE HERE TO ASSIST.
+At SHENERIO, we value the relationship we build with our customers.
+
+--- PAGE 4 ---
+CUSTOMER SERVICE
+CONTACT FORM
+Full Name
+Email Address
+Enquiry Subject
+Order Number (Optional)
+Your Message
+ NEWSLETTER SUBSCRIPTION
+WEBSITE FOOTER
+For questions about our products, orders or general enquiries, our team welcomes your 
+correspondence.
+Email: [INSERT OFFICIAL CUSTOMER SERVICE EMAIL]
+Location: London, United Kingdom.
+The contact form should include:
+Button: SEND ENQUIRY
+Closing Statement:
+Thank you for your interest in SHENERIO.
+Headline:
+THE WORLD OF SHENERIO, DELIVERED.
+Copy:
+Stay connected with the latest from SHENERIO.
+Be among the first to discover new collections, skincare insights, editorial features and 
+selected brand updates.
+Join us as we continue to develop the world of SHENERIO.
+Email Field: Your email address.
+Button: SUBSCRIBE
+By subscribing, you agree to receive marketing communications from SHENERIO. You 
+may unsubscribe at any time. Please see our Privacy Policy.
+SHENERIO
+
+--- PAGE 5 ---
+DISCOVER
+Home
+Collections
+LUMICLEAR TARGET SERUM
+LUMICLEAR RADIANCE CREAM
+Our House
+Formulation
+The Ritual
+The Journal
+CUSTOMER CARE
+Contact Us
+Frequently Asked Questions
+Shipping & Delivery
+Returns & Refunds
+Order Tracking
+LEGAL
+Privacy Policy
+Cookie Policy
+Terms & Conditions
+Returns Policy
+CONNECT
+Instagram
+TikTok
+Pinterest
+ WEBSITE DESIGN AND DEVELOPMENT BRIEF
+Advanced Skincare. Refined by Design.
+London, United Kingdom.
+Formulated and manufactured in South Korea.
+© SHENERIO. All rights reserved.
+This section provides the developer with the visual and technical requirements for the 
+SHENERIO website.
+
+--- PAGE 6 ---
+Brand Creative Direction
+Homepage Structure
+1. Luxury brand campaign and hero statement.
+2. SHENERIO brand introduction.
+3. LUMICLEAR collection.
+4. Formulation philosophy.
+5. London and South Korea brand story.
+6. All-skin-types and makeup compatibility statement.
+7. The SHENERIO ritual.
+8. The Journal.
+9. Newsletter subscription.
+10. Luxury footer.
+Product Page Requirements
+Product title.
+Product photography.
+Product size.
+Retail price.
+Product description.
+Key benefits.
+Ingredient highlights.
+Full ingredients list.
+Texture description.
+Skin suitability.
+Makeup compatibility.
+SHENERIO should have the appearance of an established international luxury skincare 
+house.
+The design direction is modern clinical luxury, combining sophisticated minimalism, clean 
+typography, science-led skincare presentation and contemporary editorial photography.
+The website should feel premium, credible, confident and internationally appealing.
+The homepage should follow this order:
+Each product page should include:
+
+--- PAGE 7 ---
+How to use.
+Add to Bag functionality.
+Delivery information.
+Returns information.
+Related products.
+Genuine customer reviews when available.
+Website Functionality
+Fully responsive desktop, tablet and mobile design.
+E-commerce shopping basket.
+Secure payment checkout.
+Product inventory management.
+Customer account functionality.
+Product image galleries.
+Newsletter integration.
+Search functionality.
+Shipping and returns information.
+Cookie consent.
+Privacy controls.
+Analytics and conversion tracking.
+Search engine optimisation.
+Social media integration.
+Future collection and product management.
+Future Scalability
+Facial cleansers.
+Eye care.
+Facial treatments.
+Hydrating masks.
+The website should include:
+The website must be developed as a scalable luxury skincare e-commerce platform.
+Although the initial collection includes two products, the structure should accommodate 
+future launches without requiring a complete website redesign.
+Future product categories may include:
+
+--- PAGE 8 ---
+Additional serums.
+Advanced moisturising treatments.
+15. SEARCH ENGINE OPTIMISATION (SEO)
+Homepage
+Our House
+Collections
+Serum
+Cream
+Future collections should retain the SHENERIO visual identity and naming structure.
+SEO Title: SHENERIO | Luxury Skincare London
+Meta Description:
+Discover SHENERIO, a London-founded luxury skincare brand with products formulated 
+and manufactured in South Korea. Explore the LUMICLEAR collection, featuring 
+thoughtfully formulated skincare essentials.
+SEO Title: About SHENERIO | Our Luxury Skincare Philosophy
+Meta Description:
+Discover the philosophy behind SHENERIO, a London-founded skincare brand inspired 
+by Korean formulation innovation and contemporary luxury.
+SEO Title: SHENERIO | Luxury Skincare Collection
+Meta Description:
+Explore the SHENERIO LUMICLEAR collection, featuring thoughtfully formulated 
+skincare essentials including our Target Serum and Radiance Cream.
+SEO Title: LUMICLEAR TARGET SERUM | SHENERIO
+Meta Description:
+Discover SHENERIO LUMICLEAR TARGET SERUM, featuring niacinamide, panthenol 
+and sodium hyaluronate in a lightweight hydration-focused formula. £26.
+SEO Title: LUMICLEAR RADIANCE CREAM | SHENERIO
+Meta Description:
+Discover SHENERIO LUMICLEAR RADIANCE CREAM, a nourishing moisturiser 
+featuring niacinamide, squalane, shea butter and sodium hyaluronate. £36.
+
+--- PAGE 9 ---
+Formulation
+The Ritual
+The Journal
+Recommended SEO Keywords
+Luxury skincare brand UK
+Luxury skincare London
+Korean-formulated skincare
+Niacinamide serum
+Hydrating face serum
+Luxury moisturising cream
+Skincare with niacinamide
+Luxury skincare brand
+Skincare ingredients
+Korean skincare innovation
+Makeup-friendly skincare
+Everyday skincare routine
+16. IMPORTANT INFORMATION BEFORE WEBSITE 
+LAUNCH
+SEO Title: SHENERIO | Skincare Ingredients and Formulation
+Meta Description:
+Explore the ingredients and formulation philosophy behind SHENERIO skincare, 
+including niacinamide, panthenol, hyaluronic acid and squalane.
+SEO Title: The SHENERIO Skincare Ritual
+Meta Description:
+Discover the SHENERIO skincare ritual and learn how to incorporate LUMICLEAR 
+TARGET SERUM and LUMICLEAR RADIANCE CREAM into your daily routine.
+SEO Title: SHENERIO Journal | Skincare and Beauty Insights
+Meta Description:
+Explore skincare education, ingredient insights and contemporary beauty perspectives 
+from the SHENERIO Journal.
+
+--- PAGE 10 ---
+Product Information
+Confirm the final size of LUMICLEAR TARGET SERUM.
+Confirm the final size of LUMICLEAR RADIANCE CREAM.
+Confirm the final product packaging and directions.
+Confirm the complete official INCI ingredient lists with your manufacturer.
+Confirm the all-skin-types positioning through appropriate product suitability 
+evidence.
+Confirm makeup compatibility through appropriate product and makeup-layering 
+testing.
+FINAL SHENERIO BRAND STATEMENT
+The following details must be confirmed before your developer publishes the website.
+SHENERIO
+ADVANCED SKINCARE. REFINED BY DESIGN.
+A contemporary vision of luxury skincare.
+Founded in London. Formulated and manufactured in South Korea.
+Thoughtful ingredients. Considered formulations. An elevated approach to everyday 
+skincare.
+Created for women and men. Designed with all skin types in mind.

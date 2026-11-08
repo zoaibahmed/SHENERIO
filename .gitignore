@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+playwright-report/
+test-results/
+tmp/
+
+# Local briefing sources; not application assets.
+/*.pdf
+/*.mp4
+# Playwright's raw captures duplicate the named evidence recordings.
+docs/design-audit/prototype-evidence/motion/

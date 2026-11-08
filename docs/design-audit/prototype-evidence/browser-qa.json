@@ -1,0 +1,668 @@
+{
+  "checkedAt": "2026-11-08T20:32:36.228Z",
+  "browser": "156.0.8078.80",
+  "runs": [
+    {
+      "scenario": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "reducedMotion": "no-preference"
+      },
+      "horizontalOverflow": false,
+      "imagesLoaded": true,
+      "menuAndFocus": true,
+      "galleryAndIngredients": true,
+      "modalFocusContainmentAndRestore": true,
+      "labVitals": {
+        "lcp": 928,
+        "cls": 0
+      },
+      "violations": [],
+      "assets": [
+        {
+          "name": "/_next/static/media/bodoni_moda_latin_400_normal-s.p.0dl1cyw19nni1.woff2",
+          "bytes": 14828,
+          "duration": 36
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_400_normal-s.p.2xa18tgv2np2i.woff2",
+          "bytes": 14408,
+          "duration": 36
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_500_normal-s.p.23dhs730snm70.woff2",
+          "bytes": 14344,
+          "duration": 49
+        },
+        {
+          "name": "/_next/static/chunks/16o3isqujc480.css",
+          "bytes": 5386,
+          "duration": 50
+        },
+        {
+          "name": "/_next/static/chunks/0kqziy-7_gy73.js",
+          "bytes": 7732,
+          "duration": 62
+        },
+        {
+          "name": "/_next/static/chunks/395glp5--7qza.js",
+          "bytes": 48777,
+          "duration": 87
+        },
+        {
+          "name": "/_next/static/chunks/3jn_x8ihwq16e.js",
+          "bytes": 71981,
+          "duration": 96
+        },
+        {
+          "name": "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+          "bytes": 4205,
+          "duration": 82
+        },
+        {
+          "name": "/_next/static/chunks/3qfy96eoyh-ek.js",
+          "bytes": 3815,
+          "duration": 81
+        },
+        {
+          "name": "/_next/static/chunks/1e9dlt3g9kxsm.js",
+          "bytes": 8935,
+          "duration": 87
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcampaign.webp&w=1920&q=75",
+          "bytes": 32324,
+          "duration": 54
+        },
+        {
+          "name": "/favicon.ico",
+          "bytes": 309,
+          "duration": 4
+        },
+        {
+          "name": "/_next/static/chunks/2a3iml0rheide.js",
+          "bytes": 27759,
+          "duration": 12
+        },
+        {
+          "name": "/_next/static/chunks/04s0sdy-i_vwo.js",
+          "bytes": 17810,
+          "duration": 9
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=750&q=75",
+          "bytes": 15420,
+          "duration": 8
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=828&q=75",
+          "bytes": 12053,
+          "duration": 19
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=828&q=75",
+          "bytes": 13866,
+          "duration": 24
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=640&q=75",
+          "bytes": 8503,
+          "duration": 21
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=640&q=75",
+          "bytes": 9883,
+          "duration": 26
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=750&q=75",
+          "bytes": 10745,
+          "duration": 9
+        }
+      ],
+      "runtimeReducedMotion": true
+    },
+    {
+      "scenario": {
+        "name": "compact-desktop",
+        "width": 1024,
+        "height": 768,
+        "reducedMotion": "no-preference"
+      },
+      "horizontalOverflow": false,
+      "imagesLoaded": true,
+      "menuAndFocus": true,
+      "galleryAndIngredients": true,
+      "modalFocusContainmentAndRestore": true,
+      "labVitals": {
+        "lcp": 184,
+        "cls": 0
+      },
+      "violations": [],
+      "assets": [
+        {
+          "name": "/_next/static/media/bodoni_moda_latin_400_normal-s.p.0dl1cyw19nni1.woff2",
+          "bytes": 14828,
+          "duration": 21
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_400_normal-s.p.2xa18tgv2np2i.woff2",
+          "bytes": 14408,
+          "duration": 29
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_500_normal-s.p.23dhs730snm70.woff2",
+          "bytes": 14344,
+          "duration": 29
+        },
+        {
+          "name": "/_next/static/chunks/16o3isqujc480.css",
+          "bytes": 5386,
+          "duration": 30
+        },
+        {
+          "name": "/_next/static/chunks/0kqziy-7_gy73.js",
+          "bytes": 7732,
+          "duration": 39
+        },
+        {
+          "name": "/_next/static/chunks/395glp5--7qza.js",
+          "bytes": 48777,
+          "duration": 53
+        },
+        {
+          "name": "/_next/static/chunks/3jn_x8ihwq16e.js",
+          "bytes": 71981,
+          "duration": 59
+        },
+        {
+          "name": "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+          "bytes": 4205,
+          "duration": 45
+        },
+        {
+          "name": "/_next/static/chunks/3qfy96eoyh-ek.js",
+          "bytes": 3815,
+          "duration": 43
+        },
+        {
+          "name": "/_next/static/chunks/1e9dlt3g9kxsm.js",
+          "bytes": 8935,
+          "duration": 50
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcampaign.webp&w=1080&q=75",
+          "bytes": 15472,
+          "duration": 34
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=640&q=75",
+          "bytes": 11580,
+          "duration": 6
+        },
+        {
+          "name": "/_next/static/chunks/2a3iml0rheide.js",
+          "bytes": 27759,
+          "duration": 16
+        },
+        {
+          "name": "/_next/static/chunks/04s0sdy-i_vwo.js",
+          "bytes": 17810,
+          "duration": 13
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=384&q=75",
+          "bytes": 4511,
+          "duration": 10
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=384&q=75",
+          "bytes": 4856,
+          "duration": 10
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=640&q=75",
+          "bytes": 8503,
+          "duration": 10
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=640&q=75",
+          "bytes": 9883,
+          "duration": 7
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "name": "tablet",
+        "width": 820,
+        "height": 1180,
+        "reducedMotion": "no-preference"
+      },
+      "horizontalOverflow": false,
+      "imagesLoaded": true,
+      "menuAndFocus": true,
+      "galleryAndIngredients": true,
+      "modalFocusContainmentAndRestore": true,
+      "labVitals": {
+        "lcp": 288,
+        "cls": 0
+      },
+      "violations": [],
+      "assets": [
+        {
+          "name": "/_next/static/media/bodoni_moda_latin_400_normal-s.p.0dl1cyw19nni1.woff2",
+          "bytes": 14828,
+          "duration": 25
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_400_normal-s.p.2xa18tgv2np2i.woff2",
+          "bytes": 14408,
+          "duration": 25
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_500_normal-s.p.23dhs730snm70.woff2",
+          "bytes": 14344,
+          "duration": 25
+        },
+        {
+          "name": "/_next/static/chunks/16o3isqujc480.css",
+          "bytes": 5386,
+          "duration": 38
+        },
+        {
+          "name": "/_next/static/chunks/0kqziy-7_gy73.js",
+          "bytes": 7732,
+          "duration": 41
+        },
+        {
+          "name": "/_next/static/chunks/395glp5--7qza.js",
+          "bytes": 48777,
+          "duration": 54
+        },
+        {
+          "name": "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+          "bytes": 4205,
+          "duration": 43
+        },
+        {
+          "name": "/_next/static/chunks/3jn_x8ihwq16e.js",
+          "bytes": 71981,
+          "duration": 68
+        },
+        {
+          "name": "/_next/static/chunks/3qfy96eoyh-ek.js",
+          "bytes": 3815,
+          "duration": 46
+        },
+        {
+          "name": "/_next/static/chunks/1e9dlt3g9kxsm.js",
+          "bytes": 8935,
+          "duration": 51
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=828&q=75",
+          "bytes": 17628,
+          "duration": 39
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=640&q=75",
+          "bytes": 11580,
+          "duration": 25
+        },
+        {
+          "name": "/_next/static/chunks/2a3iml0rheide.js",
+          "bytes": 27759,
+          "duration": 13
+        },
+        {
+          "name": "/_next/static/chunks/04s0sdy-i_vwo.js",
+          "bytes": 17810,
+          "duration": 11
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=256&q=75",
+          "bytes": 2773,
+          "duration": 12
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=256&q=75",
+          "bytes": 2888,
+          "duration": 13
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=640&q=75",
+          "bytes": 8503,
+          "duration": 15
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=640&q=75",
+          "bytes": 9883,
+          "duration": 12
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "reducedMotion": "no-preference"
+      },
+      "horizontalOverflow": false,
+      "imagesLoaded": true,
+      "menuAndFocus": true,
+      "galleryAndIngredients": true,
+      "modalFocusContainmentAndRestore": true,
+      "labVitals": {
+        "lcp": 236,
+        "cls": 0
+      },
+      "violations": [],
+      "assets": [
+        {
+          "name": "/_next/static/media/bodoni_moda_latin_400_normal-s.p.0dl1cyw19nni1.woff2",
+          "bytes": 14828,
+          "duration": 35
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_400_normal-s.p.2xa18tgv2np2i.woff2",
+          "bytes": 14408,
+          "duration": 36
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_500_normal-s.p.23dhs730snm70.woff2",
+          "bytes": 14344,
+          "duration": 51
+        },
+        {
+          "name": "/_next/static/chunks/16o3isqujc480.css",
+          "bytes": 5386,
+          "duration": 60
+        },
+        {
+          "name": "/_next/static/chunks/0kqziy-7_gy73.js",
+          "bytes": 7732,
+          "duration": 74
+        },
+        {
+          "name": "/_next/static/chunks/395glp5--7qza.js",
+          "bytes": 48777,
+          "duration": 195
+        },
+        {
+          "name": "/_next/static/chunks/3jn_x8ihwq16e.js",
+          "bytes": 71981,
+          "duration": 232
+        },
+        {
+          "name": "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+          "bytes": 4205,
+          "duration": 126
+        },
+        {
+          "name": "/_next/static/chunks/3qfy96eoyh-ek.js",
+          "bytes": 3815,
+          "duration": 132
+        },
+        {
+          "name": "/_next/static/chunks/1e9dlt3g9kxsm.js",
+          "bytes": 8935,
+          "duration": 128
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=640&q=75",
+          "bytes": 11580,
+          "duration": 57
+        },
+        {
+          "name": "/_next/static/chunks/2a3iml0rheide.js",
+          "bytes": 27759,
+          "duration": 20
+        },
+        {
+          "name": "/_next/static/chunks/04s0sdy-i_vwo.js",
+          "bytes": 17810,
+          "duration": 17
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=256&q=75",
+          "bytes": 2773,
+          "duration": 29
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=256&q=75",
+          "bytes": 2888,
+          "duration": 43
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=640&q=75",
+          "bytes": 8503,
+          "duration": 96
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=640&q=75",
+          "bytes": 9883,
+          "duration": 46
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "name": "mobile-reduced",
+        "width": 390,
+        "height": 844,
+        "reducedMotion": "reduce"
+      },
+      "horizontalOverflow": false,
+      "imagesLoaded": true,
+      "menuAndFocus": true,
+      "galleryAndIngredients": true,
+      "modalFocusContainmentAndRestore": true,
+      "labVitals": {
+        "lcp": 160,
+        "cls": 0
+      },
+      "violations": [],
+      "assets": [
+        {
+          "name": "/_next/static/media/bodoni_moda_latin_400_normal-s.p.0dl1cyw19nni1.woff2",
+          "bytes": 14828,
+          "duration": 24
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_400_normal-s.p.2xa18tgv2np2i.woff2",
+          "bytes": 14408,
+          "duration": 24
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_500_normal-s.p.23dhs730snm70.woff2",
+          "bytes": 14344,
+          "duration": 23
+        },
+        {
+          "name": "/_next/static/chunks/16o3isqujc480.css",
+          "bytes": 5386,
+          "duration": 33
+        },
+        {
+          "name": "/_next/static/chunks/0kqziy-7_gy73.js",
+          "bytes": 7732,
+          "duration": 38
+        },
+        {
+          "name": "/_next/static/chunks/395glp5--7qza.js",
+          "bytes": 48777,
+          "duration": 53
+        },
+        {
+          "name": "/_next/static/chunks/3jn_x8ihwq16e.js",
+          "bytes": 71981,
+          "duration": 61
+        },
+        {
+          "name": "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+          "bytes": 4205,
+          "duration": 40
+        },
+        {
+          "name": "/_next/static/chunks/3qfy96eoyh-ek.js",
+          "bytes": 3815,
+          "duration": 47
+        },
+        {
+          "name": "/_next/static/chunks/1e9dlt3g9kxsm.js",
+          "bytes": 8935,
+          "duration": 48
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=640&q=75",
+          "bytes": 11580,
+          "duration": 34
+        },
+        {
+          "name": "/_next/static/chunks/2a3iml0rheide.js",
+          "bytes": 27759,
+          "duration": 16
+        },
+        {
+          "name": "/_next/static/chunks/04s0sdy-i_vwo.js",
+          "bytes": 17810,
+          "duration": 11
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=256&q=75",
+          "bytes": 2773,
+          "duration": 17
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=256&q=75",
+          "bytes": 2888,
+          "duration": 16
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=640&q=75",
+          "bytes": 8503,
+          "duration": 14
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=640&q=75",
+          "bytes": 9883,
+          "duration": 12
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "name": "small-phone",
+        "width": 320,
+        "height": 740,
+        "reducedMotion": "reduce"
+      },
+      "horizontalOverflow": false,
+      "imagesLoaded": true,
+      "menuAndFocus": true,
+      "galleryAndIngredients": true,
+      "modalFocusContainmentAndRestore": true,
+      "labVitals": {
+        "lcp": 148,
+        "cls": 0
+      },
+      "violations": [],
+      "assets": [
+        {
+          "name": "/_next/static/media/bodoni_moda_latin_400_normal-s.p.0dl1cyw19nni1.woff2",
+          "bytes": 14828,
+          "duration": 20
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_400_normal-s.p.2xa18tgv2np2i.woff2",
+          "bytes": 14408,
+          "duration": 20
+        },
+        {
+          "name": "/_next/static/media/manrope_latin_500_normal-s.p.23dhs730snm70.woff2",
+          "bytes": 14344,
+          "duration": 30
+        },
+        {
+          "name": "/_next/static/chunks/16o3isqujc480.css",
+          "bytes": 5386,
+          "duration": 31
+        },
+        {
+          "name": "/_next/static/chunks/0kqziy-7_gy73.js",
+          "bytes": 7732,
+          "duration": 36
+        },
+        {
+          "name": "/_next/static/chunks/395glp5--7qza.js",
+          "bytes": 48777,
+          "duration": 50
+        },
+        {
+          "name": "/_next/static/chunks/3jn_x8ihwq16e.js",
+          "bytes": 71981,
+          "duration": 53
+        },
+        {
+          "name": "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+          "bytes": 4205,
+          "duration": 43
+        },
+        {
+          "name": "/_next/static/chunks/3qfy96eoyh-ek.js",
+          "bytes": 3815,
+          "duration": 43
+        },
+        {
+          "name": "/_next/static/chunks/1e9dlt3g9kxsm.js",
+          "bytes": 8935,
+          "duration": 44
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=640&q=75",
+          "bytes": 11580,
+          "duration": 32
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=384&q=75",
+          "bytes": 5531,
+          "duration": 8
+        },
+        {
+          "name": "/_next/static/chunks/2a3iml0rheide.js",
+          "bytes": 27759,
+          "duration": 17
+        },
+        {
+          "name": "/_next/static/chunks/04s0sdy-i_vwo.js",
+          "bytes": 17810,
+          "duration": 12
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=256&q=75",
+          "bytes": 2773,
+          "duration": 13
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=256&q=75",
+          "bytes": 2888,
+          "duration": 12
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fserum.webp&w=384&q=75",
+          "bytes": 4511,
+          "duration": 13
+        },
+        {
+          "name": "/_next/image?url=%2Fimages%2Fcream.webp&w=384&q=75",
+          "bytes": 4856,
+          "duration": 14
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

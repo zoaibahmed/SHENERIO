@@ -1,0 +1,98 @@
+{
+  "testedAt": "2026-11-08T20:34:54.747Z",
+  "conditions": "Local production server; fresh browser context; 390×844 @2x; simulated 4x CPU slowdown; 1.6 Mbps down / 0.75 Mbps up / 150ms latency. Server image cache may be warm. Single lab sample.",
+  "browser": "156.0.8078.80",
+  "initial": {
+    "lcp": 4792,
+    "cls": 0.00014742394686690638,
+    "lcpElement": "IMG",
+    "lcpLoadTime": 4158.699999999255,
+    "resources": [
+      {
+        "name": "/_next/static/media/bodoni_moda_latin_400_normal-s.p.0dl1cyw19nni1.woff2",
+        "type": "link",
+        "transferBytes": 14828,
+        "duration": 524
+      },
+      {
+        "name": "/_next/static/media/manrope_latin_400_normal-s.p.2xa18tgv2np2i.woff2",
+        "type": "link",
+        "transferBytes": 14408,
+        "duration": 526
+      },
+      {
+        "name": "/_next/static/media/manrope_latin_500_normal-s.p.23dhs730snm70.woff2",
+        "type": "link",
+        "transferBytes": 14344,
+        "duration": 532
+      },
+      {
+        "name": "/_next/static/chunks/16o3isqujc480.css",
+        "type": "link",
+        "transferBytes": 5386,
+        "duration": 300
+      },
+      {
+        "name": "/_next/static/chunks/0kqziy-7_gy73.js",
+        "type": "link",
+        "transferBytes": 7732,
+        "duration": 520
+      },
+      {
+        "name": "/_next/static/chunks/395glp5--7qza.js",
+        "type": "script",
+        "transferBytes": 48777,
+        "duration": 1132
+      },
+      {
+        "name": "/_next/static/chunks/3jn_x8ihwq16e.js",
+        "type": "script",
+        "transferBytes": 71981,
+        "duration": 1334
+      },
+      {
+        "name": "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+        "type": "script",
+        "transferBytes": 4205,
+        "duration": 772
+      },
+      {
+        "name": "/_next/static/chunks/3qfy96eoyh-ek.js",
+        "type": "script",
+        "transferBytes": 3815,
+        "duration": 786
+      },
+      {
+        "name": "/_next/static/chunks/1e9dlt3g9kxsm.js",
+        "type": "script",
+        "transferBytes": 8935,
+        "duration": 909
+      },
+      {
+        "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=1200&q=75",
+        "type": "link",
+        "transferBytes": 32571,
+        "duration": 817
+      },
+      {
+        "name": "/_next/image?url=%2Fimages%2Fportrait.webp&w=828&q=75",
+        "type": "img",
+        "transferBytes": 17628,
+        "duration": 256
+      },
+      {
+        "name": "/favicon.ico",
+        "type": "other",
+        "transferBytes": 309,
+        "duration": 181
+      }
+    ]
+  },
+  "scrollFrameSample": {
+    "count": 75,
+    "medianMs": 16.699999999999818,
+    "p95Ms": 116.60000000000036,
+    "over50Ms": 6
+  },
+  "limitations": "Not physical mobile hardware, real network, INP field measurement, Safari testing or proof of performance superiority over reference recordings."
+}
