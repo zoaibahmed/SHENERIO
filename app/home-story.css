@@ -1,0 +1,116 @@
+/* The homepage has one shopping scene; its compact version is the same product rail. */
+.ivory-site .flagship-collection { padding-block: clamp(38px, 6vw, 88px) clamp(40px, 6vw, 84px); }
+.ivory-site .flagship-collection h2 { font-size: clamp(43px, 6vw, 89px); }
+.collection-intro-actions { max-width: 29ch; }
+.collection-intro-actions .text-link { margin-top: 8px; }
+.ivory-site .collection-sequence { display: block; }
+.ivory-site .collection-optics-track { display: block; min-height: 0; margin: 0; }
+.ivory-site .collection-optics { display: block; position: static; height: auto; background: transparent; color: var(--ink); overflow: visible; }
+.ivory-site .optics-visual, .ivory-site .optics-rail > p, .ivory-site .optics-rail-actions { display: none; }
+.ivory-site .optics-notes { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); gap: clamp(24px, 4vw, 60px); }
+.ivory-site .optics-note { min-width: 0; }
+.ivory-site .optics-note-1 { margin-top: clamp(35px, 6vw, 85px); }
+.optics-mobile-art { position: relative; isolation: isolate; overflow: hidden; aspect-ratio: 1.2; border-radius: var(--radius-product); background: #e3dfe2; margin-bottom: 24px; }
+.optics-note-1 .optics-mobile-art { background: var(--blush); }
+.optics-mobile-texture { position: absolute; inset: 0 0 0 62%; }
+.optics-mobile-texture img { object-fit: cover; }
+.optics-mobile-art > span { position: absolute; z-index: 2; inset: 6% auto auto 5%; font: italic 400 clamp(54px, 7vw, 100px)/1 var(--serif); letter-spacing: -.06em; }
+.optics-mobile-pack { position: absolute; inset: 18% 25% 8% 6%; }
+.optics-note-1 .optics-mobile-pack { inset: 27% 19% 10% 5%; }
+.optics-step { color: var(--muted); font-size: 14px; }
+.optics-name { font: 400 clamp(34px, 4.1vw, 61px)/1 var(--serif); letter-spacing: -.045em; margin-block: 14px; }
+.optics-name > span { display: block; font: 400 12px/1.5 var(--sans); letter-spacing: .08em; margin-bottom: 8px; }
+.optics-price { font-size: 17px; margin-bottom: 12px; }
+.optics-description { color: var(--muted); font-size: 17px; max-width: 38ch; }
+.optics-mobile-shop { margin-top: 21px; }
+
+/* Application, rather than packaging: two photographs become one bounded desktop scene. */
+.ivory-site .home-ritual { background: var(--paper); padding-block: clamp(44px, 6vw, 88px); }
+.home-ritual-heading { display: grid; grid-template-columns: 1.3fr 1fr; gap: 9%; align-items: end; margin-block: 32px 42px; }
+.home-ritual h2 { font: 400 clamp(40px, 5.5vw, 78px)/1.02 var(--serif); letter-spacing: -.04em; }
+.home-ritual-heading > p { color: var(--muted); font-size: 17px; max-width: 45ch; }
+.home-ritual-applications { display: grid; gap: 40px; }
+.home-ritual-application { display: grid; grid-template-columns: 1.5fr 1fr; align-items: center; gap: 7%; }
+.home-ritual-photo { position: relative; margin: 0; min-width: 0; aspect-ratio: 1.16; isolation: isolate; border-radius: var(--radius-editorial); overflow: hidden; background: #9d9994; }
+.home-ritual-photo img { object-fit: cover; object-position: 50% 38%; }
+.home-ritual-photo::after { content: ''; position: absolute; inset: 65% 0 0; background: linear-gradient(transparent, #1c1817a0); pointer-events: none; }
+.home-ritual-photo figcaption { position: absolute; z-index: 1; inset: auto 25px 24px; color: #fffdf8; display: flex; align-items: baseline; gap: 13px; font-size: 18px; }
+.home-ritual-photo figcaption > span:first-child { font: 400 42px/1 var(--serif); }
+.home-ritual-step { color: var(--muted); font-size: 14px; }
+.home-ritual-copy h3 { overflow: hidden; font: 400 clamp(48px, 5.4vw, 78px)/1.2 var(--serif); letter-spacing: -.05em; margin-block: 12px 20px; padding-bottom: .1em; }
+.home-ritual-copy h3 > span { display: block; }
+.home-ritual-product { max-width: 26ch; font-size: 12px; letter-spacing: .055em; line-height: 1.6; }
+.home-ritual-instruction { max-width: 32ch; margin-top: 15px; color: var(--muted); font-size: 17px; line-height: 1.65; }
+.home-ritual-progress { display: none; }
+.home-ritual-ending { display: flex; justify-content: space-between; align-items: center; gap: 24px; border-top: 1px solid var(--rule); padding-top: 27px; margin-top: 32px; }
+.home-ritual-ending > p { font: 400 clamp(24px, 2.5vw, 36px)/1.2 var(--serif); letter-spacing: -.025em; }
+.home-ritual-ending .button { font-size: 12px; letter-spacing: .035em; }
+
+@media (min-width: 1024px) and (min-height: 680px) and (pointer: fine) and (prefers-reduced-motion: no-preference) and (scripting: enabled) {
+  /* Reserve sticky geometry before hydration, including browser Back restoration. */
+  html:not([data-motion-ready='fallback']) .ivory-site .collection-optics-track { --stage-height: min(69svh, 595px); min-height: calc(var(--stage-height) + clamp(330px, 53svh, 500px)); }
+  html:not([data-motion-ready='fallback']) .ivory-site .collection-optics { display: grid; grid-template-columns: minmax(0, 1.85fr) minmax(0, 1fr); position: sticky; top: calc(var(--header) + 18px); height: var(--stage-height); background: var(--paper); overflow: hidden; }
+  .ivory-site .optics-visual { position: relative; overflow: hidden; isolation: isolate; }
+  html:not([data-motion-ready='fallback']) .ivory-site .optics-visual { display: block; }
+  .optics-rose { position: absolute; inset: 0; background: var(--blush); opacity: 0; }
+  .optics-study { position: absolute; inset: 0; }
+  .optics-material { position: absolute; inset: 0 0 0 61%; overflow: hidden; z-index: 1; }
+  .optics-study-1 .optics-material { clip-path: inset(0 0 0 100%); }
+  .optics-visual picture, .optics-visual picture img { display: block; width: 100%; height: 100%; }
+  .optics-material img { object-fit: cover; }
+  .optics-word { position: absolute; inset: 5% auto auto 5%; z-index: 4; overflow: hidden; padding: 0 .11em .16em .02em; font: italic 400 clamp(64px, 7.7vw, 112px)/1 var(--serif); letter-spacing: -.065em; }
+  .optics-word span { display: block; }
+  .optics-study-1 .optics-word { color: #5b4037; }
+  .optics-object { position: absolute; inset: 17% 26% 8% 13%; z-index: 3; }
+  .optics-study-1 .optics-object { inset: 23% 20% 8% 10%; clip-path: inset(0 0 0 100%); }
+  .optics-object img { object-fit: contain; }
+  .optics-caption { position: absolute; bottom: 14px; left: 16px; z-index: 5; color: var(--ink); background: var(--paper); font-size: 12px; padding: 4px 9px; }
+  .optics-seam { position: absolute; inset: 0 0 0 61%; border-left: 1px solid var(--paper); opacity: .9; pointer-events: none; z-index: 2; }
+  html:not([data-motion-ready='fallback']) .ivory-site .optics-rail { padding: clamp(22px, 3vw, 43px); display: flex; flex-direction: column; justify-content: space-between; gap: 12px; }
+  html:not([data-motion-ready='fallback']) .ivory-site .optics-rail > p { display: block; font-size: 14px; color: var(--muted); }
+  html:not([data-motion-ready='fallback']) .ivory-site .optics-notes { position: relative; display: grid; grid-template-columns: 1fr; gap: 0; overflow: hidden; }
+  html:not([data-motion-ready='fallback']) .ivory-site .optics-note { grid-area: 1 / 1; padding-block: 12px; margin: 0; }
+  html:not([data-motion-ready='fallback']) .ivory-site .optics-note-1 { transform: translateY(100%); }
+  html:not([data-motion-ready='fallback']) .ivory-site :is(.optics-mobile-art, .optics-mobile-shop) { display: none; }
+  .optics-description { font-size: clamp(15px, 1.25vw, 18px); max-width: 32ch; }
+  html:not([data-motion-ready='fallback']) .ivory-site .optics-rail-actions { display: block; }
+  .optics-shop { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; margin-bottom: 15px; }
+  .optics-shop a { display: flex; align-items: center; justify-content: space-between; gap: 5px; min-height: 44px; padding: 7px clamp(8px, 1vw, 14px); border: 1px solid var(--rule); font-size: 14px; line-height: 1.25; border-radius: var(--radius-button); transition: background-color .2s, color .2s; }
+  .optics-shop .arrow { width: 15px; height: 15px; flex: none; }
+  .optics-shop a:is(:hover, :focus-visible) { border-color: var(--ink); }
+  .collection-optics-track[data-phase='treat'] .optics-shop a:first-child, .collection-optics-track[data-phase='nourish'] .optics-shop a:last-child { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+  .optics-meter { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 10px; color: var(--muted); font-size: 13px; }
+  .optics-meter i { height: 1px; background: var(--rule); }
+  .optics-meter i::after { display: block; content: ''; height: 100%; background: var(--ink); transform: scaleX(var(--optics-progress, 0)); transform-origin: left; }
+
+  html:not([data-motion-ready='fallback']) .home-ritual-track { --ritual-height: min(64svh, 580px); height: calc(var(--ritual-height) + clamp(330px, 46svh, 430px)); }
+  html:not([data-motion-ready='fallback']) .home-ritual-scene { position: sticky; top: calc(var(--header) + 18px); height: var(--ritual-height); }
+  html:not([data-motion-ready='fallback']) .home-ritual-applications { position: relative; display: block; height: 100%; }
+  html:not([data-motion-ready='fallback']) .home-ritual-application { position: absolute; inset: 0; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 6.5%; }
+  html:not([data-motion-ready='fallback']) .home-ritual-photo { height: 100%; aspect-ratio: auto; }
+  html:not([data-motion-ready='fallback']) .home-ritual-application-1 .home-ritual-photo { clip-path: inset(0 0 0 100% round var(--radius-editorial)); }
+  html:not([data-motion-ready='fallback']) .home-ritual-copy { height: 350px; display: flex; flex-direction: column; justify-content: center; padding-right: 14%; }
+  html:not([data-motion-ready='fallback']) .home-ritual-application-1 .home-ritual-copy { opacity: 0; }
+  html:not([data-motion-ready='fallback']) .home-ritual-track[data-phase='nourish'] .home-ritual-application-0 .home-ritual-copy { opacity: 0; }
+  html:not([data-motion-ready='fallback']) .home-ritual-track[data-phase='nourish'] .home-ritual-application-1 .home-ritual-copy { opacity: 1; }
+  html:not([data-motion-ready='fallback']) .home-ritual-progress { display: flex; align-items: center; gap: 10px; position: absolute; inset: auto 5.3% 14px auto; width: 24%; font-size: 13px; color: var(--muted); }
+  .home-ritual-progress i { height: 1px; flex: 1; background: var(--rule); }
+  .home-ritual-progress i::after { content: ''; display: block; height: 100%; background: var(--ink); transform: scaleX(var(--ritual-progress, 0)); transform-origin: left; }
+}
+@media (max-width: 767px) {
+  .ivory-site .optics-notes { grid-template-columns: 1fr; gap: 42px; }
+  .ivory-site .optics-note-1 { margin: 0; }
+  .optics-name { font-size: clamp(36px, 10.5vw, 58px); }
+  .optics-mobile-art { margin-bottom: 22px; }
+  .optics-mobile-art > span { font-size: clamp(62px, 18vw, 110px); }
+  .optics-description { font-size: 16px; }
+  .home-ritual-heading { display: block; margin-block: 26px 30px; }
+  .home-ritual-heading > p { margin-top: 21px; font-size: 16px; }
+  .home-ritual-application { display: block; }
+  .home-ritual-photo { aspect-ratio: .93; }
+  .home-ritual-copy { padding: 23px 2px 0; }
+  .home-ritual-copy h3 { font-size: 54px; margin-block: 7px 10px; }
+  .home-ritual-instruction { max-width: 40ch; font-size: 16px; }
+  .home-ritual-ending { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .home-ritual-ending .button { width: 100%; }
+}

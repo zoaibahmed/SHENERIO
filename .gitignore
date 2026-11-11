@@ -11,5 +11,11 @@ tmp/
 # Local briefing sources; not application assets.
 /*.pdf
 /*.mp4
+# Original supplied product images; web-ready versions live in public/images.
+/image0.jpeg
+/image1.jpeg
 # Playwright's raw captures duplicate the named evidence recordings.
 docs/design-audit/prototype-evidence/motion/
+# Generated local browser evidence is separate from the website source.
+docs/implementation/evidence/
+docs/design-audit/prototype-evidence/rebuild-baseline-desktop.png

@@ -1,25 +1,14 @@
-# SHENERIO — Phase A / B1
+# SHENERIO
 
-Private, responsive luxury skincare homepage prototype. Scope: navigation, campaign, House introduction, two-product collection and product preview interaction study. Next.js / React / TypeScript, CSS tokens, GSAP + ScrollTrigger. Native scrolling. Locally bundled Bodoni Moda and Manrope fonts (SIL Open Font License; package licences retained in node_modules/@fontsource).
-
-## Run
+Private storefront frontend for the London-founded skincare house. It includes the campaign homepage, LUMICLEAR collections and product pages, brand education, Journal, search, customer care and policy approval states. The shared design uses Bodoni Moda and Manrope, porcelain and forest colours, responsive CSS and motion that honours reduced-motion preferences.
 
 ```powershell
 npm ci
 npm run dev
 ```
 
-Open http://127.0.0.1:3000. For the production preview, `npm run build` then `npm start`. Type-check with `npm run typecheck`. Browser checks use the installed Google Chrome browser: `npx playwright install ffmpeg`, then with the app running `npm run test:browser`. The ffmpeg package records the actual interaction walkthroughs. The lab sample is `node scripts/performance-lab.mjs`; do not run it alongside other browser workloads when comparing timings.
+Open [the local storefront](http://127.0.0.1:3000). For a production-mode preview, run `npm run build` and `npm start`. Use `npm run typecheck` and `npm run lint` for source checks. With Google Chrome installed and the production preview running, `npm run test:browser` checks the complete route set and `npm run test:homepage` covers homepage-specific motion and interaction. `PREVIEW_URL` overrides the browser scripts’ default address. Set `QA_OUTPUT` to keep homepage regression evidence separate from the original rebuild capture.
 
-This is not a live shop. No checkout, account, inventory, payment, tracking, email signup or analytics service is connected. Product names/prices and short descriptions come from TIL.pdf; no additional products or reviews are invented. Product sizes, full INCI and claims remain subject to approval and are not presented as final in the prototype. AI-generated campaign and packaging concepts are explicitly identified in the preview. Replace with brand-approved assets before publication. All routes carry noindex metadata and X-Robots-Tag; this is not access control, so keep previews private.
+Product data and verification fields live in `lib/products.ts`. The Journal distinguishes editorial previews from published material in `lib/journal.ts`. Collections use self-canonicals for the index and the LUMICLEAR feature. `SHENERIO_SITE_URL` sets the canonical origin and defaults to the local preview address. All pages carry a `noindex` directive.
 
-## Project map
-
-- `app/page.tsx`: server-rendered homepage sections and source content.
-- `components/experience.tsx`: narrow interactive navigation, preview dialog and motion controller.
-- `app/globals.css`: semantic tokens, layouts, responsive and reduced-motion variants.
-- `lib/products.ts`: typed source product register; not a commerce database.
-- `public/images`: optimized original concept assets. No reference-video imagery is deployed.
-- `docs/design-audit`: source audit, implementation direction, asset register and comparison/QA evidence.
-
-See `docs/design-audit/SHENERIO_PHASE_AB1_CREATIVE_PLAN.md` for current authorisation; historical audit documents describe the earlier pre-approval state. Full commerce, supporting pages and remaining homepage sections belong to later phases.
+Shopping, payment, account, tracking, contact delivery, subscriptions and analytics require merchant integrations. Concept imagery and provisional product information are labelled. Keep this preview on localhost until the dependencies in the [complete website report](docs/implementation/SHENERIO_COMPLETE_WEBSITE_REPORT.md) are resolved.

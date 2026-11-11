@@ -1,0 +1,128 @@
+:root {
+  --radius-editorial: clamp(18px, 1.65vw, 24px);
+  --radius-product: clamp(16px, 1.4vw, 20px);
+  --radius-card: clamp(14px, 1.2vw, 18px);
+  --radius-dialog: clamp(20px, 1.7vw, 24px);
+  --radius-button: 11px;
+  --radius-thumb: 9px;
+}
+
+.ivory-site .light-hero { --campaign-field: #f5eee6; background: var(--campaign-field); }
+.ivory-site .light-hero .hero-art { inset: 0 32% 0 0; }
+.ivory-site .light-hero .hero-art img { object-position: 18% 47%; }
+.ivory-site .light-hero .hero-shade { background: linear-gradient(90deg, transparent 37%, #f5eee62e 44%, #f5eee6bf 52%, var(--campaign-field) 68%); }
+.ivory-site .manifesto-image img { object-position: 48% 42%; }
+.ivory-site .origin-image img, .ivory-site .house-location-photo img { object-position: 50% 48%; }
+.ivory-site .origin-credit { color: var(--muted); max-width: 34ch; }
+.ivory-site .origin-credit a { text-decoration: underline; text-underline-offset: .2em; }
+.ivory-site :is(.atlas-visual[data-topic='hydration'], [data-topic='hydration'] .atlas-ingredient-photo) img { object-position: 56% 44%; }
+
+.ivory-site .flagship-collection .serum-chapter .product-scene,
+.ivory-site .optics-visual { background: radial-gradient(ellipse at 30% 38%, #ece9eb 0%, #dbd7db 48%, #c9c5c9 100%); }
+.ivory-site .ritual-step:first-child .ritual-packshot { background: #eee8de; }
+.ivory-site :is(.commerce-root, .commerce-card, .commerce-pairing-image)[data-product='target-serum'] { --commerce-image: #eee8de; }
+
+.ivory-site :is(.manifesto-image, .origin-image, .journal-image, .formulation-plate-media,
+  .ed-photo:not(.ed-house-photo, .ed-ritual-hero-photo, .atlas-selector-photo), .pdp-touch-image,
+  .cream-fold-plate, .atlas-visuals) {
+  border-radius: var(--radius-editorial);
+  overflow: hidden;
+}
+
+.ivory-site :is(.collection-optics, .product-scene, .ritual-packshot, .commerce-collection-pair,
+  .commerce-card-art, .commerce-gallery-images, .commerce-pairing-image, .ed-ritual-stage) {
+  border-radius: var(--radius-product);
+  overflow: hidden;
+}
+
+.ivory-site :is(.commerce-collection-study, .mobile-chapter-story, .menu-product-button > div,
+  .atlas-index-card, .care-panel, .care-search-empty, .ed-article-product-photo) { border-radius: var(--radius-card); }
+.ivory-site .commerce-collection-portrait { border-radius: var(--radius-editorial); }
+.ivory-site .collection-menu { border-end-start-radius: var(--radius-card); border-end-end-radius: var(--radius-card); }
+.ivory-site .product-dialog { border-radius: var(--radius-dialog); }
+.ivory-site :is(.button, .gallery-controls button, .commerce-gallery-arrows button, .commerce-quantity,
+  .ed-ritual-tabs button, .atlas-tabs button, .care-page input, .care-page textarea) { border-radius: var(--radius-button); }
+.ivory-site :is(.commerce-gallery-thumb, .commerce-gallery-thumb-media, .care-result-image) { border-radius: var(--radius-thumb); }
+.ivory-site .atlas-selector { border-start-end-radius: var(--radius-card); border-end-end-radius: var(--radius-card); overflow: hidden; }
+
+/* The masks remove only the photographed white surround. The supplied pack pixels are retained. */
+img:is([src*='lumiclear-serum-pack'], [data-pack='target-serum']) { --pack-mask: url('/images/lumiclear-serum-mask.svg'); }
+img:is([src*='lumiclear-cream-pack'], [data-pack='radiance-cream']) { --pack-mask: url('/images/lumiclear-cream-mask.svg'); }
+img:is([src*='lumiclear-serum-pack'], [src*='lumiclear-cream-pack'], [data-pack]) {
+  object-fit: contain;
+  object-position: center;
+  mask: var(--pack-mask) center / contain no-repeat content-box;
+}
+
+.ivory-site :is(.optics-object, .commerce-collection-pack) img { filter: none; }
+.ivory-site .scene-alternate { background: #e4dcda; }
+.ivory-site .scene-alternate .scene-set { object-fit: cover; object-position: center bottom; padding: 0; }
+.scene-still-life-product { position: absolute; inset: 4% 27% 17% 29%; z-index: 2; }
+.ivory-site .scene-still-life-product img { object-fit: contain; padding: 0; }
+.cream-chapter .scene-still-life-product { inset: 29% 12% 14%; }
+.scene-ground-shadow { position: absolute; left: 42%; top: 78.3%; width: 19%; height: 1.9%; background: radial-gradient(ellipse, #352a254d, #352a2500 72%); }
+.cream-chapter .scene-ground-shadow { left: 29%; top: 78.1%; width: 46%; }
+.ivory-site .commerce-collection-study img { object-fit: contain; object-position: center; padding: 9%; }
+.ivory-site .commerce-collection-study:nth-child(2) { background: #eadbd2; }
+.ivory-site .commerce-card-art .commerce-card-studio { object-fit: contain; object-position: center; padding: 16%; }
+.ivory-site .commerce-card-link:is(:hover, :focus-visible) .commerce-card-pack { opacity: 0; }
+.ivory-site .commerce-card-art .commerce-card-pack { transition-property: transform, opacity; }
+.ivory-site .commerce-gallery-frame[data-kind='studio'] { background: #f4ebe5; }
+.ivory-site .commerce-gallery-frame[data-kind='studio'] img { object-fit: contain; padding: 14% 23%; }
+.ivory-site .commerce-gallery-thumb-media[data-kind='studio'] img { object-fit: contain; padding: 6px; }
+.ivory-site .preview-alternate { background: #f3e8e1; }
+.ivory-site .preview-alternate img { object-fit: contain; padding: 12% 18%; }
+.ivory-site :is(.ed-article-product-photo, .care-result-image) img { object-fit: contain; object-position: center; padding: 7%; }
+.ivory-site .commerce-pairing-image img { object-position: center; }
+
+.ivory-site .optics-study-0 .optics-object { inset-block: 15% 7%; }
+.optics-study-0 .optics-object::before { content: ''; position: absolute; inset: auto 34% 3.5%; height: 1.3%; background: radial-gradient(ellipse, #55455045, #55455000 72%); }
+
+.ivory-site :is(.formulation-index, .atlas-index-card, .journal-feature-copy, .ed-journal-feature-copy,
+  .ed-ingredient-entry[data-topic='nourishment'], .ed-ingredient-commitment, .atlas-reading-slip, .ed-house-story) {
+  border-radius: 22px;
+}
+.ivory-site .formulation-index { overflow: hidden; }
+.ivory-site .formulation-index .ingredient-tablist { gap: 8px; border: 0; background: transparent; }
+.ivory-site .formulation-index .ingredient-tablist button { border: 1px solid var(--rule); border-radius: 12px; background: #f6f1eb; }
+.ivory-site .formulation-index .ingredient-tablist button[aria-selected='true'] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.ivory-site .formulation-index .ingredient-tablist button:focus-visible { outline-offset: -4px; }
+.ingredient-content { display: grid; margin-top: 16px; }
+.ivory-site .ingredient-panel { grid-area: 1 / 1; margin: 0; padding: 18px 20px; background: #f6f1eb; border: 1px solid #dbd1c6; border-radius: 16px; animation: none; }
+.ingredient-panel:not([data-active='true']) { opacity: 0; pointer-events: none; }
+
+.ivory-site .atlas-tabs { gap: 7px; }
+.ivory-site .atlas-tabs button { border: 1px solid var(--rule); border-radius: 12px; background: #faf6ef; padding-inline: 10px; }
+.ivory-site .atlas-tabs button[aria-selected='true'] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.ivory-site .atlas-selector-panel:not([data-current]) { visibility: visible; opacity: 0; pointer-events: none; }
+.ivory-site .atlas-selector-copy { border-start-end-radius: 20px; }
+.ivory-site .journal-feature-copy { padding: clamp(24px, 3.5vw, 50px); }
+
+.ivory-site .newsletter-input { align-items: center; min-height: 60px; padding: 4px; border: 1px solid #aa9a8b; border-radius: 14px; background: #fffdf8; transition: border-color .2s, box-shadow .2s; }
+.ivory-site .newsletter-input:focus-within { border-color: var(--ink); box-shadow: 0 0 0 2px #6d5c4a30; }
+.ivory-site .newsletter-input input { height: 50px; padding-inline: 13px; border-radius: 10px; }
+.ivory-site .newsletter-input input:focus-visible { outline: none; }
+.ivory-site .newsletter-input button { width: 50px; min-height: 50px; flex-shrink: 0; border-radius: 10px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .ingredient-panel, .atlas-selector-panel { transition: opacity .3s ease, transform .38s var(--ease); }
+  .ingredient-panel:not([data-active='true']), .atlas-selector-panel:not([data-current]) { transform: translateY(7px); }
+}
+
+@media (max-width: 767px) {
+  .ivory-site .light-hero { color: #2d261f; }
+  .ivory-site .light-hero .hero-art { inset: var(--header) 0 auto; }
+  .ivory-site .light-hero .hero-art img { object-position: 47% 25%; }
+  .ivory-site .light-hero .hero-shade { background: linear-gradient(180deg, transparent 27%, #f5eee636 39%, #f5eee6e6 59%, var(--campaign-field) 75%); }
+  .ivory-site .light-hero :is(.hero-mark, .hero-description) { color: #3d3128; }
+  .ivory-site .light-hero .hero-copy .button { background: var(--ink); color: var(--white); }
+  .ivory-site .light-hero .hero-copy .button:focus-visible { outline-color: var(--ink); }
+  .ivory-site .light-hero .hero-bottom { color: var(--ink); border-color: #302b2845; }
+  .ivory-site .origin-diptych figcaption { flex-wrap: wrap; gap: 3px 10px; }
+  .ivory-site .origin-credit { margin-top: 2px; }
+  .ivory-site .atlas-selector { border-start-end-radius: 0; border-end-start-radius: var(--radius-card); }
+  .ivory-site .atlas-visuals { border-radius: var(--radius-card); }
+  .ivory-site .atlas-tabs { gap: 6px; }
+  .ivory-site .atlas-tabs button { padding: 3px 5px; line-height: 1.2; }
+  .ivory-site .ingredient-panel { padding: 16px; }
+}

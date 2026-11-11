@@ -1,0 +1,277 @@
+.ed-page {
+  --ed-forest: #17241c;
+  --ed-deep: #19271e;
+  --ed-mineral: #e0e4d4;
+  --ed-rule: #9ba18e;
+  --ed-caption: #475247;
+  --ed-light: #e4ed9a;
+  padding-top: var(--header);
+  background: var(--porcelain);
+  color: var(--ink);
+}
+
+.ed-wrap {
+  max-width: 1540px;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.ed-page h1, .ed-page h2, .ed-page h3 {
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -.05em;
+}
+
+.ed-page h1 { font-size: clamp(60px, 10.5vw, 164px); }
+.ed-page h2 { font-size: clamp(41px, 6.4vw, 94px); }
+.ed-page h3 { font-size: clamp(29px, 3.4vw, 53px); }
+.ed-page p { max-width: 55ch; }
+.ed-page .ed-kicker { font-size: 13px; font-weight: 500; letter-spacing: .075em; }
+.ed-page .ed-hero-deck { font-size: clamp(20px, 2.1vw, 29px); line-height: 1.35; letter-spacing: -.025em; }
+.ed-photo { position: relative; overflow: hidden; min-width: 0; background: #d1d6c5; }
+.ed-photo img { object-fit: cover; }
+
+.ed-caption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 16px;
+  align-items: center;
+  padding-block: 6px;
+  border-bottom: 1px solid var(--ed-rule);
+  color: var(--ed-caption);
+  font-size: 13px;
+}
+
+.ed-caption a { display: inline-flex; gap: 10px; align-items: center; min-height: 42px; }
+.ed-caption a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.ed-caption .arrow, .ed-journal-nav .arrow { width: 15px; height: 15px; }
+.ed-footer-bridge {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 22px;
+  padding-block: clamp(48px, 7vw, 100px);
+  background: #e9eadb;
+}
+.ed-footer-bridge > p { font: 400 clamp(34px, 5vw, 74px)/.98 var(--serif); letter-spacing: -.05em; max-width: 16ch; }
+.ed-footer-bridge h2 { font-size: clamp(34px, 5vw, 74px); }
+.ed-footer-bridge h2 + p { margin-top: 14px; }
+.ed-footer-bridge > a { flex-shrink: 0; }
+
+/* Our House / a portrait held inside the story, with a factual origin diptych. */
+.ed-house-hero {
+  display: grid;
+  grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr);
+  align-items: center;
+  gap: clamp(28px, 7vw, 115px);
+  min-height: min(800px, 84svh);
+  padding: clamp(36px, 6.6vw, 104px) var(--gutter);
+  background: var(--ed-forest);
+  color: #f4f2e7;
+}
+.ed-house-intro > .ed-kicker { color: var(--ed-light); margin-bottom: 18px; }
+.ed-house-intro h1 { font-size: clamp(60px, 10vw, 153px); }
+.ed-house-intro .ed-hero-deck { margin-top: 20px; }
+.ed-house-intro .ed-hero-deck + p { margin-top: 15px; color: #e3e8d9; }
+.ed-house-intro .text-link { margin-top: 22px; }
+.ed-house-portrait { margin: 0; min-width: 0; }
+.ed-house-photo { aspect-ratio: 1.12; background: #25382b; }
+.ed-house-photo img { object-position: 52% 44%; }
+.ed-house-portrait figcaption { padding-block: 10px; border-bottom: 1px solid #85917c; color: #d5dbc5; font-size: 13px; }
+.ed-house-story {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: end;
+  gap: clamp(18px, 4vw, 65px);
+  padding-block: clamp(55px, 8vw, 120px);
+}
+.ed-house-story-lead .ed-kicker { margin-bottom: 13px; }
+.ed-house-story-copy { color: var(--ed-caption); font-size: clamp(16px, 1.45vw, 20px); }
+.ed-house-story-copy p + p { margin-top: 14px; }
+.ed-place-grid { grid-column: 1/-1; display: grid; grid-template-columns: 1.13fr 1fr; align-items: end; gap: 20px; }
+.ed-place-photo { aspect-ratio: 1.5; }
+.ed-place-photo-korea { aspect-ratio: 1.62; }
+.ed-place-grid figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; padding-top: 11px; color: var(--ed-caption); font-size: 13px; }
+.ed-place-grid figcaption a { text-decoration: underline; text-underline-offset: 3px; }
+.ed-principles { padding-block: clamp(54px, 8vw, 116px); background: #dfe3d5; }
+.ed-principles-intro { display: grid; grid-template-columns: minmax(0, .34fr) minmax(0, 1fr); gap: 16px; align-items: end; }
+.ed-principles-intro .ed-kicker { margin-bottom: 7px; }
+.ed-principles-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 30px;
+  padding: 0;
+  margin: 30px 0 8px;
+  list-style: none;
+}
+.ed-principles-grid li { padding-block: 22px 28px; border-top: 1px solid var(--ed-rule); }
+.ed-principles-grid p { margin-top: 10px; color: var(--ed-caption); }
+
+/* Formulation / the wide material plate moves into a margin-led ingredient index. */
+.ed-formulation-hero { padding-block: clamp(48px, 7vw, 100px) clamp(38px, 5vw, 72px); }
+.ed-formulation-masthead { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); gap: 24px; align-items: end; margin-bottom: clamp(22px, 4vw, 52px); }
+.ed-formulation-masthead h1 { font-size: clamp(52px, 8.7vw, 125px); }
+.ed-formulation-masthead .ed-kicker { margin-bottom: 9px; }
+.ed-formulation-lead .ed-hero-deck + p { margin-top: 13px; color: var(--ed-caption); }
+.ed-formulation-plate { aspect-ratio: 2.55; }
+.ed-formulation-plate img { object-position: center 52%; }
+.ed-ingredient-study {
+  display: grid;
+  grid-template-columns: minmax(0, .39fr) minmax(0, 1fr);
+  gap: clamp(28px, 7vw, 110px);
+  align-items: start;
+  padding-block: clamp(49px, 8vw, 114px);
+  background: var(--ed-mineral);
+}
+.ed-ingredient-rail { position: sticky; top: calc(var(--header) + 22px); }
+.ed-ingredient-rail .ed-kicker { margin-bottom: 10px; }
+.ed-ingredient-nav { display: grid; gap: 0; margin-top: 22px; }
+.ed-ingredient-nav a { display: block; padding-block: 10px; border-bottom: 1px solid var(--ed-rule); font-size: 14px; }
+.ed-ingredient-nav a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.ed-ingredient-entry { padding-block: clamp(22px, 4vw, 55px); border-top: 1px solid var(--ed-rule); }
+.ed-ingredient-entry:target h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .15em; }
+.ed-ingredient-entry p { margin-top: 13px; font-size: clamp(16px, 1.32vw, 19px); color: var(--ed-caption); }
+.ed-ingredient-entry .text-link { margin-top: 12px; }
+.ed-ingredient-names { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 14px 0 0; }
+.ed-ingredient-names li { border: 1px solid #929b84; padding: 2px 8px; font-size: 12px; }
+.ed-ingredient-commitment { padding-bottom: 0; }
+
+/* The Ritual / a touch-controlled product scene and two parallel, complete routines. */
+.ed-ritual-hero { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr); background: #dfe4d5; }
+.ed-ritual-hero-photo { min-height: clamp(440px, 53vw, 760px); }
+.ed-ritual-hero-photo img { object-position: 30% 50%; }
+.ed-ritual-hero-copy { align-self: center; padding: clamp(35px, 6.5vw, 95px) var(--gutter); }
+.ed-ritual-hero-copy h1 { font-size: clamp(56px, 8.5vw, 128px); margin-top: 12px; }
+.ed-ritual-hero-copy .ed-hero-deck { margin-top: 20px; }
+.ed-ritual-hero-copy .ed-hero-deck + p { margin-top: 13px; color: var(--ed-caption); }
+.ed-routine-jump { display: flex; flex-wrap: wrap; gap: 4px 20px; margin-top: 14px; }
+.ed-ritual-study-wrap { padding-block: clamp(46px, 7vw, 100px); }
+.ed-ritual-study { display: grid; grid-template-columns: minmax(0, 1.26fr) minmax(0, .74fr); background: var(--ed-deep); color: var(--ink); }
+.ed-ritual-study-head { grid-column: 1/-1; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); align-items: end; gap: 13px 25px; padding: clamp(18px, 3.1vw, 46px); background: var(--paper); border-top: 1px solid var(--rule); }
+.ed-ritual-study-head h2 { font-size: clamp(39px, 5.2vw, 79px); }
+.ed-ritual-study-head .ed-kicker { margin-bottom: 7px; }
+.ed-ritual-stage {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: clamp(380px, 46vw, 635px);
+  background: radial-gradient(ellipse at 50% 47%, #7c8a6d 0%, #445541 56%, #23352a 100%);
+}
+.ed-ritual-layer { position: absolute; inset: 0; background: #e2e4da; }
+.ed-ritual-layer-1 { background: var(--blush); clip-path: inset(0 0 0 100%); transition: clip-path .58s var(--ease); }
+.ed-ritual-study[data-active='nourish'] .ed-ritual-layer-1 { clip-path: inset(0); }
+.ed-ritual-texture { position: absolute; inset: 0 0 0 65%; overflow: hidden; }
+.ed-ritual-texture img { object-fit: cover; }
+.ed-ritual-word { position: absolute; inset: 7% auto auto 7%; overflow: hidden; padding: 0 .1em .12em 0; font: italic 400 clamp(55px, 6.6vw, 98px)/1 var(--serif); letter-spacing: -.06em; }
+.ed-ritual-word span { display: block; transition: transform .52s var(--ease); }
+.ed-ritual-layer-1 .ed-ritual-word span { transform: translateY(108%); }
+.ed-ritual-study[data-active='nourish'] .ed-ritual-layer-0 .ed-ritual-word span { transform: translateY(-108%); }
+.ed-ritual-study[data-active='nourish'] .ed-ritual-layer-1 .ed-ritual-word span { transform: none; transition-delay: .10s; }
+.ed-ritual-object { position: absolute; inset: 19% 22% 8% 6%; transition: transform .65s var(--ease); }
+.ed-ritual-object img { object-fit: contain; }
+.ed-ritual-layer-1 .ed-ritual-object { transform: translateX(16%) scale(.93); }
+.ed-ritual-study[data-active='nourish'] .ed-ritual-layer-0 .ed-ritual-object { transform: translateX(-11%); }
+.ed-ritual-study[data-active='nourish'] .ed-ritual-layer-1 .ed-ritual-object { transform: none; }
+.ed-ritual-stage-note { position: absolute; inset: auto auto 12px 12px; padding: 3px 9px; background: var(--ed-forest); color: #f2f3e7; font-size: 12px; }
+.ed-ritual-study-copy { align-self: center; padding: clamp(27px, 4vw, 66px); }
+.ed-ritual-study-copy .ed-kicker { color: var(--ed-light); margin-bottom: 12px; }
+.ed-ritual-study-copy h2 { font-size: clamp(39px, 5.2vw, 79px); }
+.ed-ritual-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; }
+.ed-ritual-tabs button { min-height: 48px; padding: 9px 10px; border: 1px solid var(--rule); font-size: 15px; text-align: left; }
+.ed-ritual-tabs button span { margin-right: 8px; font-size: 12px; }
+.ed-ritual-tabs button[aria-selected=true] { border-color: var(--ink); background: var(--ink); color: var(--paper); }
+.ed-ritual-tabs button:focus-visible { outline-offset: -2px; }
+.ed-ritual-panels { display: grid; overflow: hidden; }
+.ed-ritual-panels [role='tabpanel'] { grid-area: 1 / 1; opacity: 0; transform: translateY(10px); transition: opacity .22s ease, transform .32s var(--ease); }
+.ed-ritual-panels [data-active='true'] { opacity: 1; transform: none; transition-delay: .12s; }
+.ed-ritual-study-copy [role=tabpanel] h3 { font: 400 clamp(29px, 3.8vw, 57px)/1.02 var(--serif); letter-spacing: -.04em; }
+.ed-ritual-study-copy [role=tabpanel] p { margin-top: 9px; color: #e2e6d8; }
+.ed-ritual-use { border-top: 1px solid var(--rule); padding-top: 12px; font-size: 15px; }
+.ed-ritual-study-copy [role=tabpanel] .text-link { margin-top: 10px; }
+.ed-routine-wrap { padding-bottom: clamp(48px, 7vw, 92px); }
+.ed-routine-grid { display: grid; gap: clamp(30px, 5vw, 72px); }
+.ed-routine { display: grid; grid-template-columns: minmax(0, .64fr) minmax(0, 1fr); gap: 12px 30px; padding: clamp(19px, 3vw, 42px); background: var(--cream); }
+.ed-routine + .ed-routine { width: min(100%, 1040px); margin-inline-start: auto; background: #eeeee6; }
+.ed-routine header > span { display: block; margin-bottom: 8px; font-size: 14px; color: var(--muted); }
+.ed-routine header > p { color: var(--muted); }
+.ed-routine h2 { font-size: clamp(37px, 5.45vw, 76px); margin-bottom: 23px; }
+.ed-routine ol { list-style: none; padding: 0; margin: 0; counter-reset: ritual-step; }
+.ed-routine li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 12px; border-top: 1px solid var(--ed-rule); padding-block: 15px 18px; counter-increment: ritual-step; }
+.ed-routine li::before { content: counter(ritual-step, decimal-leading-zero); color: var(--ed-caption); font-size: 13px; margin-top: 4px; }
+.ed-routine h3 { font-size: clamp(25px, 3vw, 37px); }
+.ed-routine li p { color: var(--ed-caption); margin-top: 5px; }
+.ed-routine-note { margin-top: 22px; padding: 15px 18px; border-inline-start: 2px solid var(--sage); font-size: 15px; }
+
+/* Journal / an editorial masthead and a different, narrow reading rhythm. */
+.ed-journal-masthead { padding-block: clamp(45px, 7vw, 92px) 34px; text-align: center; }
+.ed-journal-masthead h1 { margin-top: 8px; }
+.ed-journal-masthead p { margin-inline: auto; }
+.ed-journal-masthead .ed-hero-deck { margin-top: 18px; }
+.ed-journal-masthead .ed-hero-deck + p { margin-top: 13px; color: var(--ed-caption); }
+.ed-journal-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 24px; }
+.ed-journal-nav a { display: inline-flex; align-items: center; min-height: 44px; gap: 8px; font-size: 14px; border-bottom: 1px solid transparent; }
+.ed-journal-nav a:hover, .ed-journal-nav a[aria-current] { border-bottom-color: currentColor; }
+.ed-journal-entries { padding-block: 28px clamp(47px, 7vw, 93px); }
+.ed-journal-feature { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr); background: #dfe4d5; }
+.ed-journal-media-link { display: block; position: relative; }
+.ed-journal-media-link:focus-visible { outline-offset: -5px; z-index: 1; }
+.ed-journal-photo { min-height: clamp(350px, 43vw, 590px); height: 100%; }
+.ed-journal-photo img, .ed-article-product-photo img { transition: transform .58s var(--ease); }
+.ed-journal-media-link:is(:hover, :focus-visible) img, .ed-article-products a:is(:hover, :focus-visible) img { transform: scale(1.04); }
+.ed-journal-feature-copy { align-self: center; padding: clamp(24px, 4.2vw, 68px); }
+.ed-journal-feature-copy h2 { font-size: clamp(38px, 5.25vw, 77px); margin-top: 14px; }
+.ed-journal-feature-copy h2 + p { color: var(--ed-caption); margin-top: 15px; }
+.ed-journal-feature-copy .text-link { margin-top: 12px; }
+.ed-article-heading { padding-block: clamp(30px, 5.8vw, 75px) 24px; }
+.ed-back-link { display: inline-flex; align-items: center; gap: 8px; min-height: 43px; font-size: 14px; margin-bottom: 18px; }
+.ed-back-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.ed-article-heading h1 { max-width: 16ch; font-size: clamp(47px, 8.1vw, 116px); margin-top: 10px; }
+.ed-article-heading .ed-hero-deck { margin-top: 18px; }
+.ed-article-photo { aspect-ratio: 2.45; }
+.ed-article-photo img { object-position: center 51%; }
+.ed-article-body { max-width: 740px; margin-inline: auto; padding: clamp(35px, 5vw, 70px) var(--gutter); }
+.ed-article-section > p { max-width: none; font-size: clamp(17px, 1.7vw, 21px); }
+.ed-article-section > p + p { margin-top: 19px; }
+.ed-article-section + .ed-article-section { margin-top: 34px; }
+.ed-article-section h2 { font-size: clamp(31px, 4vw, 49px); margin-bottom: 13px; }
+.ed-article-body .ed-publication-note { margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--ed-rule); font-size: 14px; color: var(--ed-caption); }
+.ed-article-related { display: grid; grid-template-columns: minmax(0, .65fr) minmax(0, 1.35fr); gap: clamp(18px, 5vw, 75px); align-items: start; padding-block: clamp(38px, 6vw, 77px); background: #e3e6d8; }
+.ed-article-related h2 { font-size: clamp(39px, 5vw, 72px); margin-top: 9px; }
+.ed-article-products { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.ed-article-product-photo { aspect-ratio: 1.26; }
+.ed-article-products a > span { display: flex; justify-content: space-between; align-items: center; gap: 6px; padding: 9px 0; font-size: 13px; line-height: 1.4; }
+.ed-article-products .arrow { flex: 0 0 18px; width: 18px; height: 18px; }
+
+@media (max-width: 767px) {
+  .ed-house-hero, .ed-house-story, .ed-principles-intro, .ed-formulation-masthead, .ed-ingredient-study,
+  .ed-ritual-hero, .ed-ritual-study, .ed-ritual-study-head, .ed-journal-feature, .ed-article-related { grid-template-columns: minmax(0, 1fr); }
+  .ed-house-hero { min-height: 0; padding-top: 34px; }
+  .ed-house-photo { aspect-ratio: 1.12; }
+  .ed-house-intro .text-link { margin-top: 16px; }
+  .ed-house-story-copy { margin-top: 0; }
+  .ed-principles-intro { gap: 8px; }
+  .ed-principles-intro .ed-kicker { margin-bottom: 0; }
+  .ed-formulation-masthead { gap: 16px; }
+  .ed-formulation-plate, .ed-article-photo { aspect-ratio: 1.52; }
+  .ed-ingredient-rail { position: static; }
+  .ed-ingredient-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 14px; }
+  .ed-ritual-hero-photo { min-height: clamp(290px, 72vw, 470px); }
+  .ed-ritual-hero-copy { padding-top: 25px; }
+  .ed-ritual-study .ed-ritual-stage { min-height: clamp(275px, 76vw, 530px); }
+  .ed-journal-photo { min-height: clamp(240px, 65vw, 460px); }
+  .ed-journal-feature-copy { padding-top: 22px; }
+}
+
+@media (max-width: 540px) {
+  .ed-page h1, .ed-house-intro h1, .ed-ritual-hero-copy h1 { font-size: clamp(46px, 13.2vw, 68px); }
+  .ed-formulation-masthead h1, .ed-article-heading h1 { font-size: clamp(42px, 11.3vw, 60px); }
+  .ed-page h2 { font-size: clamp(34px, 9.7vw, 48px); }
+  .ed-place-grid, .ed-principles-grid, .ed-routine { grid-template-columns: minmax(0, 1fr); }
+  .ed-place-grid figcaption { padding-top: 6px; }
+  .ed-routine-grid { gap: 23px; }
+  .ed-footer-bridge { flex-direction: column; align-items: start; }
+  .ed-footer-bridge > a { max-width: 100%; }
+  .ed-article-products a > span { font-size: 12px; }
+}

@@ -1,0 +1,120 @@
+.light-hero {
+  min-height: max(760px, 100svh);
+  display: flex;
+  align-items: center;
+  padding: calc(var(--header) + 42px) var(--gutter) 126px;
+  background: #171a12;
+}
+
+.light-hero .hero-art { inset: -2%; }
+.light-hero picture { display: block; height: 100%; }
+.light-hero .hero-art img { object-position: center 48%; }
+.light-hero .hero-shade {
+  background: linear-gradient(90deg, #12160ed9, #12160e54 43%, transparent 66%),
+    linear-gradient(0deg, #10140eda, transparent 25%);
+}
+.light-hero .hero-copy { max-width: min(64vw, 860px); }
+.hero-mark { margin-bottom: 27px; overflow: hidden; color: #e4ed9a; font-size: 15px; font-weight: 500; letter-spacing: .08em; }
+.hero-mark > span { display: block; }
+.light-hero h1 { font-size: clamp(55px, 7.25vw, 112px); line-height: .92; letter-spacing: -.049em; }
+.light-hero h1 .reveal-line:nth-child(2) { padding-inline-start: .34em; }
+.light-hero .hero-description { max-width: 30ch; margin: 23px 0 24px; }
+.light-hero .hero-bottom { color: #f6f3e8; }
+.light-hero .hero-bottom > a { justify-self: center; }
+.light-hero .hero-bottom .arrow { color: #e4ed9a; }
+
+.manifesto { background: #f6f3e8; }
+.manifesto h2 { max-width: 16ch; }
+.manifesto-statement { color: #3b5141; font-size: clamp(26px, 3.15vw, 48px); line-height: 1.12; }
+.manifesto-statement > span { display: inline-block; }
+.manifesto-statement > span:last-of-type { color: #17241c; }
+.manifesto-prose { font-size: 17px; }
+
+.flagship-collection {
+  --optics-dark: #252f24;
+  --optics-paper: #ece9d6;
+  background: #f6f3e8;
+  padding-top: 52px;
+}
+.flagship-collection .collection-title-row { margin: 28px 0 38px; }
+.flagship-collection h2 { font-size: clamp(46px, 6.1vw, 93px); line-height: .94; }
+.flagship-collection .collection-title-row p { max-width: 27ch; font-size: 18px; }
+.collection-optics { display: none; }
+.flagship-collection .product-chapter { min-height: 0; }
+.flagship-collection .product-scene { background: radial-gradient(ellipse at 54% 49%, #667365 0%, #354034 39%, var(--optics-dark) 80%); }
+.flagship-collection .cream-chapter .product-scene { background: radial-gradient(ellipse at 54% 49%, #fbf5df 0%, #d4d2ae 52%, #9ba480 100%); }
+.flagship-collection .scene-lettering { font-style: italic; top: 10%; }
+.flagship-collection .product-editorial { background: #eeede0; }
+.flagship-collection .cream-chapter .product-editorial { background: #e2e5d4; }
+.product-step { font-size: 13px; letter-spacing: .12em; }
+.product-step span { margin-left: 12px; letter-spacing: .03em; }
+.flagship-collection .product-editorial h3 { font-size: clamp(34px, 4.1vw, 64px); letter-spacing: -.045em; line-height: 1; }
+.flagship-collection .product-editorial h3 span { display: block; font-family: var(--sans); letter-spacing: .12em; font-size: 13px; margin-bottom: 8px; }
+.flagship-collection .product-description { font-size: 17px; }
+.flagship-collection .ingredient-tags { margin-top: 15px; }
+.flagship-collection .product-purchase { margin-top: 22px; }
+.flagship-collection .collection-bridge { align-items: center; }
+.flagship-collection .collection-bridge > span { color: var(--muted); font-size: 13px; }
+.origin { background: #222c22; }
+.origin .chapter-label, .origin-diptych small { color: #e3e7b9; }
+.origin-diptych figure:first-child .origin-image { aspect-ratio: 1.26; }
+.origin-diptych figure:last-child .origin-image { aspect-ratio: 1.62; }
+.origin-diptych figcaption { padding-top: 12px; border-top: 1px solid #889681; }
+.origin-top > p, .everyday-copy > p, .ritual-intro, .journal-feature-copy > p { font-size: 17px; }
+.journal { background: #eeede0; }
+.journal-feature-copy { border-top: 1px solid var(--rule); }
+.newsletter, .closing { background: #151d17; }
+.closing-signature { color: #e4ed9a; }
+
+@media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
+  .collection-sequence { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 26px; }
+  .collection-optics {
+    display: block;
+    position: sticky;
+    top: calc(var(--header) + 18px);
+    height: clamp(430px, 66svh, 640px);
+    isolation: isolate;
+    overflow: hidden;
+    background: radial-gradient(ellipse at 48% 46%, #76866b, #3d4939 43%, #252f24 81%);
+    color: #f6f3e8;
+  }
+  .flagship-collection .product-chapter { position: relative; display: flex; min-height: clamp(438px, 68svh, 658px); }
+  .flagship-collection .product-chapter + .product-chapter { margin-top: 26px; }
+  .flagship-collection .product-scene {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+    min-height: 0;
+    width: clamp(75px, 8vw, 120px);
+    aspect-ratio: 1;
+  }
+  .flagship-collection .product-scene .scene-lettering, .flagship-collection .product-scene .scene-orbit { display: none; }
+  .flagship-collection .floating-product { inset: 5%; }
+  .flagship-collection .product-editorial { width: 100%; padding: 48px clamp(24px, 3.8vw, 63px) 36px; }
+  .flagship-collection .product-editorial h3 { margin-top: 24px; }
+}
+
+@media (max-width: 1023px) {
+  .light-hero .hero-art img { object-position: 58% 45%; }
+  .light-hero .hero-copy { max-width: 74vw; }
+  .flagship-collection .product-chapter + .product-chapter { margin-top: 16px; }
+}
+
+@media (max-width: 767px) {
+  .light-hero { min-height: max(650px, 100svh); align-items: flex-end; padding: calc(var(--header) + 85px) var(--gutter) 106px; }
+  .light-hero .hero-art { inset: 0; }
+  .light-hero .hero-art img { object-position: 51% 24%; }
+  .light-hero .hero-shade { background: linear-gradient(0deg, #11160efc 0%, #11160eed 25%, #11160e70 57%, transparent 79%), linear-gradient(90deg, #11160e38, transparent 75%); }
+  .light-hero .hero-copy { max-width: 100%; }
+  .hero-mark { margin-bottom: 14px; font-size: 13px; }
+  .light-hero h1 { font-size: clamp(37px, 12.2vw, 66px); line-height: .95; }
+  .light-hero .hero-description { margin: 15px 0 18px; }
+  .light-hero .hero-bottom > a { justify-self: end; }
+  .light-hero .hero-bottom .arrow { width: 17px; }
+  .flagship-collection { padding-top: 40px; }
+  .flagship-collection .collection-title-row { margin-bottom: 25px; }
+  .flagship-collection .collection-title-row p { font-size: 16px; }
+  .flagship-collection .product-scene { min-height: clamp(265px, 88vw, 460px); }
+  .flagship-collection .collection-bridge > span { display: block; margin-top: 8px; }
+}

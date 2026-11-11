@@ -1,0 +1,288 @@
+.formulation-journey {
+  --formulation-night: #1b261f;
+  --formulation-light: #f4f2e7;
+  --formulation-olive: #c4c8a6;
+  --formulation-rule: #737b68;
+  position: relative;
+  isolation: isolate;
+  padding: clamp(42px, 6vw, 96px) var(--gutter) clamp(46px, 7vw, 106px);
+  background: var(--formulation-night);
+  color: var(--formulation-light);
+}
+
+.formulation-folio,
+.formulation-index-frame {
+  max-width: 1536px;
+  margin-inline: auto;
+}
+
+.formulation-masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 0 24px;
+  border-top: 1px solid var(--formulation-rule);
+  color: var(--formulation-olive);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.formulation-spread {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: clamp(32px, 5.8vw, 104px);
+  align-items: center;
+}
+
+.formulation-plate {
+  position: relative;
+  min-width: 0;
+  border: 1px solid var(--formulation-rule);
+  padding: clamp(6px, .9vw, 14px);
+  background: #30392c;
+}
+
+.formulation-plate-media {
+  position: relative;
+  aspect-ratio: 1.18;
+  overflow: hidden;
+  background: #687064;
+}
+
+.formulation-plate-media img {
+  object-fit: cover;
+  object-position: 55% 48%;
+}
+
+.formulation-plate figcaption {
+  position: absolute;
+  right: clamp(12px, 2vw, 34px);
+  bottom: clamp(12px, 2vw, 34px);
+  padding: 5px 9px;
+  color: var(--formulation-light);
+  background: #1b261f;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.formulation-editorial {
+  padding-block: 12px 54px;
+}
+
+.formulation-editorial h2 {
+  font: 400 clamp(43px, 5.35vw, 86px)/.96 var(--serif);
+  letter-spacing: -.055em;
+}
+
+.formulation-title-line {
+  display: block;
+  overflow: hidden;
+  padding-block: .04em .15em;
+  margin-block: -.04em -.15em;
+}
+
+.formulation-title-line > span {
+  display: block;
+}
+
+.formulation-title-line + .formulation-title-line {
+  margin-top: .12em;
+  color: var(--formulation-olive);
+}
+
+.formulation-editorial p {
+  max-width: 31ch;
+  margin-top: clamp(20px, 2.6vw, 39px);
+  color: #e3e6d8;
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.55;
+}
+
+.formulation-index-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 44px;
+  margin-top: 17px;
+  border-bottom: 1px solid var(--formulation-rule);
+  font-size: 14px;
+}
+
+.formulation-index-link span {
+  display: block;
+  transition: transform .32s var(--ease);
+}
+
+.formulation-index-link:is(:hover, :focus-visible) span {
+  transform: translateY(4px);
+}
+
+.formulation-index-frame {
+  position: relative;
+  width: calc(100% - clamp(32px, 8vw, 132px));
+  margin-block-start: -26px;
+}
+
+.formulation-journey .formulation-index {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  align-items: start;
+  gap: clamp(28px, 5vw, 85px);
+  padding: clamp(28px, 4.1vw, 68px);
+  border: 1px solid #b3b59c;
+  background: var(--formulation-light);
+  color: #273228;
+}
+
+.formulation-index-copy h3 {
+  font: 400 clamp(31px, 3.5vw, 57px)/1.06 var(--serif);
+  letter-spacing: -.04em;
+}
+
+.formulation-index-copy p {
+  max-width: 45ch;
+  margin-top: 15px;
+  color: #40483b;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.formulation-index .ingredient-explorer {
+  min-width: 0;
+}
+
+.formulation-index .ingredient-tablist {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1px;
+  padding: 0;
+  border: 1px solid #a3ab98;
+  background: #a3ab98;
+}
+
+.formulation-index .ingredient-tablist button {
+  position: relative;
+  justify-content: space-between;
+  gap: 5px;
+  min-height: 49px;
+  padding: 8px clamp(8px, 1vw, 16px);
+  border: 0;
+  background: var(--formulation-light);
+  color: #273228;
+  font-size: clamp(13px, 1.05vw, 15px);
+  line-height: 1.25;
+  text-align: left;
+}
+
+.formulation-index .ingredient-tablist button:hover {
+  background: #e0e3cc;
+}
+
+.formulation-index .ingredient-tablist button[aria-selected="true"] {
+  background: #263a2b;
+  color: #f6f4eb;
+}
+
+.formulation-index .ingredient-tablist button:focus-visible {
+  z-index: 1;
+  outline-offset: -4px;
+}
+
+.formulation-index .ingredient-panel {
+  min-height: 126px;
+  padding-top: 17px;
+}
+
+.formulation-index .ingredient-panel > span {
+  color: #49543f;
+  font-size: 14px;
+}
+
+.formulation-index .ingredient-panel p {
+  max-width: 52ch;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+@media (max-width: 819px) {
+  .formulation-spread {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 25px;
+  }
+
+  .formulation-masthead {
+    padding-bottom: 16px;
+    font-size: 13px;
+  }
+
+  .formulation-plate-media {
+    max-height: 500px;
+  }
+
+  .formulation-plate-media img {
+    object-position: 56% 46%;
+  }
+
+  .formulation-editorial {
+    padding-block: 4px 29px;
+  }
+
+  .formulation-editorial h2 {
+    max-width: 13ch;
+    font-size: clamp(37px, 10.4vw, 65px);
+  }
+
+  .formulation-index-frame {
+    width: 100%;
+    margin-block-start: 0;
+  }
+
+  .formulation-journey .formulation-index {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 21px;
+    padding: clamp(14px, 5vw, 28px);
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1023px) {
+  .formulation-spread {
+    gap: 35px;
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (max-width: 1023px) and (prefers-reduced-motion: no-preference) {
+    .formulation-plate-media[data-formulation-near] {
+      view-timeline-name: --formulation-plate;
+    }
+
+    .formulation-plate-media[data-formulation-near] img {
+      animation: formulation-plate-settle linear both;
+      animation-timeline: --formulation-plate;
+      animation-range: entry 15% cover 46%;
+    }
+
+    .formulation-index-frame[data-formulation-near] {
+      view-timeline-name: --formulation-index;
+    }
+
+    .formulation-index-frame[data-formulation-near] .formulation-index {
+      animation: formulation-index-arrive linear both;
+      animation-timeline: --formulation-index;
+      animation-range: entry 0% cover 31%;
+    }
+  }
+}
+
+@keyframes formulation-plate-settle {
+  from { transform: translateY(-3%) scale(1.12); }
+  to { transform: none; }
+}
+
+@keyframes formulation-index-arrive {
+  from { transform: translateY(24px); }
+  to { transform: none; }
+}

@@ -1,0 +1,20 @@
+.campaign-intro { display: none; }
+html:is([data-home-intro='pending'], [data-home-intro='active']) .campaign-intro {
+  display: grid; place-items: center; position: fixed; inset: 0; z-index: 60;
+  color: var(--ink); pointer-events: none;
+}
+.intro-curtain { position: absolute; inset: 0; background: #fbf8f2; border-bottom: 2px solid var(--blush); will-change: transform; }
+html:is([data-home-intro='pending'], [data-home-intro='active']) .light-hero .hero-art img { will-change: transform; }
+.intro-composition { position: relative; text-align: center; padding: 30px 24px; width: 100%; }
+.intro-word-window { overflow: hidden; padding-block: .15em; }
+.intro-wordmark { display: block; font: 400 clamp(64px, 8.2vw, 122px)/1.15 var(--serif); letter-spacing: .065em; transform: translateY(106%); }
+.intro-signature { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin-top: 22px; overflow: hidden; font-size: 12px; font-weight: 500; letter-spacing: .105em; line-height: 1.6; }
+.intro-signature span { display: block; opacity: 0; }
+@media (max-width: 767px) {
+  .intro-composition { padding-inline: 18px; transform: translateY(-3svh); }
+  .intro-wordmark { font-size: clamp(37px, 11.2vw, 67px); letter-spacing: .055em; }
+  .intro-signature { display: grid; gap: 5px; margin-top: 20px; font-size: 12px; letter-spacing: .085em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html .campaign-intro { display: none !important; }
+}
